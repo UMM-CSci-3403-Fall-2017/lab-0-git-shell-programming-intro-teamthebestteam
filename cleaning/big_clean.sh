@@ -11,5 +11,5 @@ grep -lrZ "DELETE ME!" . | xargs -0 rm -f --
 
 path=${path}"/cleaned_"$1 #sets the new path
 
-tar -zcf $path */*
+tar -zcf $path */* #re-tars the cleaned file
 
